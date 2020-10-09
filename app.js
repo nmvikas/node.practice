@@ -1,9 +1,19 @@
-require("./instanthello");
-var goodbye = require("./talk/goodbye");
-var talk = require("./talk");
+console.log("1");
 
-talk.intro();
-var answer = talk.ask("What is your name?");
-console.log(answer);
+require("./async/_fibonacci");
 
-goodbye();
+console.log("2");
+
+//require("./async/readfileasync");
+//require("./async/readfile");
+//require("./async/settimeout");
+
+// require("./instanthello");
+// var goodbye = require("./talk/goodbye");
+// var talk = require("./talk");
+
+// talk.intro();
+// var answer = talk.ask("What is your name?");
+// console.log(answer);
+
+// goodbye();
