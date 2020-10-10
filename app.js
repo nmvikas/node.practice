@@ -1,15 +1,15 @@
-console.log("1");
+// console.log("1");
 
-require("./async/_fibonacci");
+// require("./async/_fibonacci");
 
-console.log("2");
+// console.log("2");
 
 //require("./async/readfileasync");
 //require("./async/readfile");
 //require("./async/settimeout");
 
-// require("./instanthello");
-// var goodbye = require("./talk/goodbye");
+require("./instanthello");
+var goodbye = require("./talk/goodbye");
 // var talk = require("./talk");
 
 // talk.intro();
